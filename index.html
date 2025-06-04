@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Chatroom</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="world">
+        <div id="avatar"></div>
+    </div>
+    <div id="chatbox">
+        <ul id="messages"></ul>
+        <div class="inputField">
+            <div class="inputBox">
+                <input id="input" autocomplete="off" placeholder="Say something..." />
+                <button id="sendButton">send</button>
+            </div>
+        </div>
+    </div>
+    <script src="client.js"></script>
+  </body>
+</html>
